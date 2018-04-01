@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.example.rideshare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.google.example.rideshare.LogInScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.example.rideshare.NewUser1" />
+        <activity android:name="com.google.example.rideshare.NewUser2" />
+        <activity android:name="com.google.example.rideshare.SelectActivity" />
+        <activity android:name="com.google.example.rideshare.CreateRide" />
+        <activity android:name="com.google.example.rideshare.FindRide1" />
+        <activity android:name="com.google.example.rideshare.FindRide2a" />
+        <activity android:name="com.google.example.rideshare.SuccessfulRideSearch" />
+        <activity android:name="com.google.example.rideshare.RideDetails" />
+        <activity android:name="com.google.example.rideshare.SignedUp" />
+        <activity android:name="com.google.example.rideshare.ViewRideInfoDriver1" />
+        <activity android:name="com.google.example.rideshare.ViewRiderInfo" />
+        <activity android:name="com.google.example.rideshare.ViewRideInfo_Rider" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
