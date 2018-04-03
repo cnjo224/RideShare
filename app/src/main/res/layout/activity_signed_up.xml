@@ -81,7 +81,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <TextView
         android:id="@+id/Make"
@@ -94,7 +94,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
+        app:layout_constraintVertical_bias="0.588" />
 
     <TextView
         android:id="@+id/Model"
@@ -110,7 +110,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.665" />
 
     <TextView
         android:id="@+id/Color"
@@ -126,7 +126,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789" />
+        app:layout_constraintVertical_bias="0.734" />
 
     <Button
         android:id="@+id/Done"
@@ -145,7 +145,7 @@
         android:id="@+id/FirstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/RSfirst_name"
+        android:text="@string/RSname"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,18 +153,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.444" />
-
-    <TextView
-        android:id="@+id/LastName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/RSlast_name"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/ArrivalTime"

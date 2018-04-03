@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\RideShare\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\GitHub Repositories\\RideShare\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Patrick\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e0aa547239683e832c8324245f9093ea\\res\\values-v26\\values-v26.xml",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Caitlin\\Downloads\\RideShare\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\RideShare\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Caitlin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4b9d1d4bea2e95da6ce63d3369971054\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Patrick\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\e0aa547239683e832c8324245f9093ea\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
